@@ -7,6 +7,14 @@ CypressRails.hooks.before_server_start do
   # Called once, before either the transaction or the server is started
   cat1 = Category.find_or_create_by! name: 'Evergreens'
 
+# Create new user for cypress test
+  user = User.create!(
+    name: 'Tester',
+    email: 'tester@gmail.com',
+    password:'cypress',
+    password_confirmation: 'cypress'
+  )
+
   # Helper functions
   def open_asset(file_name)
     File.open(Rails.root.join('db', 'seed_assets', file_name))
