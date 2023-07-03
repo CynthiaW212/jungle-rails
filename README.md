@@ -2,6 +2,20 @@
 
 A mini e-commerce application built with Rails 6.1 for purposes of teaching Rails by example.
 
+## Screenshots
+
+!["Screenshot of Home"](https://github.com/CynthiaW212/jungle-rails/blob/master/docs/screenshort-homepage.jpg?raw=true)
+
+!["Screenshot of Products sold out"](https://github.com/CynthiaW212/jungle-rails/blob/master/docs/screenshort-soldout.jpg?raw=true)
+
+!["Screenshot of Orders"](https://github.com/CynthiaW212/jungle-rails/blob/master/docs/screenshort-orderpage.jpg?raw=true)
+
+!["Screenshot of Login Page"](https://github.com/CynthiaW212/jungle-rails/blob/master/docs/screenshort-login.jpg?raw=true)
+
+!["Screenshot of Register Page"](https://github.com/CynthiaW212/jungle-rails/blob/master/docs/screenshort-register.jpg?raw=true)
+
+!["Screenshot of Admin category"](https://github.com/CynthiaW212/jungle-rails/blob/master/docs/screenshort-admin-category.jpg?raw=true)
+
 ## Setup
 
 1. Run `bundle install` to install dependencies
@@ -29,3 +43,5 @@ More information in their docs: <https://stripe.com/docs/testing#cards>
 - Bootstrap 5
 - PostgreSQL 9.x
 - Stripe
+- Rspec
+- Cypress
